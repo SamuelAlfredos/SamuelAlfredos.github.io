@@ -1,0 +1,27 @@
+.jumbotron {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background-color: rgb(185, 245, 253);
+}
+#about {
+  padding-top: 5rem;
+}
+
+#projects {
+  background-color: rgb(185, 245, 253);
+  padding-top: 5rem;
+}
+
+footer {
+  color: azure;
+  background-color: #0d6efd;
+  padding: 5px;
+}
+
+#projects {
+  padding-top: 5rem;
+}
+
+#contact {
+  padding-top: 5rem;
+}
