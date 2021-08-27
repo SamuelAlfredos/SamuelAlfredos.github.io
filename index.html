@@ -13,7 +13,7 @@
 
     <title>Portfolio | Samuel Alfredo</title>
   </head>
-  <body id="home">
+  <body>
     <!--Section Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
       <div class="container">
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -35,6 +35,14 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact Me</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Social Media </a>
+              <ul class="dropdown-menu dd" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://linkedin.com/in/samuelalfredo15" target="blank">LinkedIn</a></li>
+                <li><a class="dropdown-item" href="https://github.com/samuelalfredos" target="blank">Github</a></li>
+                <li><a class="dropdown-item" href="https://instagram.com/samuelalfredos" target="blank">Instagram</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -42,7 +50,7 @@
     <!-- Akhir Section Navbar-->
 
     <!-- Jumbotron Section-->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center" id="home">
       <img src="assets/20210818_210335-1.jpg" alt="Samuel Alfredo" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Samuel Alfredo</h1>
       <p class="lead">Fresh Graduate | Front-End Developer</p>
@@ -147,7 +155,7 @@
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Your Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
+                <textarea class="form-control" id="message" rows="3" placeholder="Input your message Here"></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
